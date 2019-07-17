@@ -25,8 +25,8 @@
 
     <TextView
         android:id="@+id/MyRecipesRecipeCraft"
-        android:layout_width="123dp"
-        android:layout_height="46dp"
+        android:layout_width="133dp"
+        android:layout_height="49dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -34,7 +34,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="RecipeCraft"
-        android:textSize="28sp"
+        android:textSize="30sp"
         app:fontFamily="cursive"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -151,7 +151,7 @@
         app:layout_constraintTop_toBottomOf="@+id/Enter Recipe Title" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnFavRecipes"
         android:layout_width="318dp"
         android:layout_height="206dp"
         android:layout_marginStart="46dp"
