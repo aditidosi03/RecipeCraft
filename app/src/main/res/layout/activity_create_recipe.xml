@@ -8,12 +8,20 @@
 
     <Button
         android:id="@+id/select Vegan"
-        android:layout_width="41dp"
-        android:layout_height="38dp"
+        android:layout_width="45dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:text="V+"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintBottom_toTopOf="@+id/Enter Recipe"
+        app:layout_constraintEnd_toStartOf="@+id/select Nut Free"
+        app:layout_constraintStart_toEndOf="@+id/Select Vegitarian"
+        app:layout_constraintTop_toBottomOf="@+id/VVplusGFNF" />
 
     <TextView
         android:id="@+id/MyRecipesRecipeCraft"
@@ -59,54 +67,103 @@
         android:id="@+id/Enter Recipe"
         android:layout_width="308dp"
         android:layout_height="52dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginBottom="32dp"
         android:ems="10"
         android:hint="Start typing your recipe here"
         android:inputType="textPersonName"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select Vegan" />
 
     <Button
         android:id="@+id/Select Vegitarian"
         android:layout_width="41dp"
         android:layout_height="38dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginLeft="97dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="24dp"
         android:text="V"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="207dp" />
+        app:layout_constraintBottom_toTopOf="@+id/Enter Recipe"
+        app:layout_constraintEnd_toStartOf="@+id/select Vegan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VVplusGFNF" />
 
     <Button
         android:id="@+id/Select Gluten Free"
         android:layout_width="47dp"
         android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="24dp"
         android:text="GF"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="206dp" />
+        app:layout_constraintBottom_toTopOf="@+id/Enter Recipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/select Nut Free"
+        app:layout_constraintTop_toBottomOf="@+id/VVplusGFNF" />
 
     <Button
         android:id="@+id/select Nut Free"
         android:layout_width="43dp"
         android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="24dp"
         android:text="NF"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="207dp" />
+        app:layout_constraintBottom_toTopOf="@+id/Enter Recipe"
+        app:layout_constraintEnd_toStartOf="@+id/Select Gluten Free"
+        app:layout_constraintStart_toEndOf="@+id/select Vegan"
+        app:layout_constraintTop_toBottomOf="@+id/VVplusGFNF" />
 
     <TextView
         android:id="@+id/VVplusGFNF"
         android:layout_width="wrap_content"
         android:layout_height="18dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="10dp"
         android:text="Select vegitarian, vegan, nut free, or gluten free"
-        tools:layout_editor_absoluteX="57dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintBottom_toTopOf="@+id/select Vegan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Enter Recipe Title" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="318dp"
         android:layout_height="206dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginBottom="124dp"
         android:text="Add Image"
-        tools:layout_editor_absoluteX="46dp"
-        tools:layout_editor_absoluteY="386dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Enter Recipe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
