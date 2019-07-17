@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateRecipe">
+
+    <Button
+        android:id="@+id/select Vegan"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:text="V+"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/MyRecipesRecipeCraft"
+        android:layout_width="123dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="RecipeCraft"
+        android:textSize="28sp"
+        app:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <EditText
+        android:id="@+id/Enter Recipe Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="Recipe Title"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MyRecipesRecipeCraft"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <EditText
+        android:id="@+id/Enter Recipe"
+        android:layout_width="308dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Start typing your recipe here"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <Button
+        android:id="@+id/Select Vegitarian"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:text="V"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:id="@+id/Select Gluten Free"
+        android:layout_width="47dp"
+        android:layout_height="37dp"
+        android:text="GF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <Button
+        android:id="@+id/select Nut Free"
+        android:layout_width="43dp"
+        android:layout_height="39dp"
+        android:text="NF"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <TextView
+        android:id="@+id/VVplusGFNF"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:text="Select vegitarian, vegan, nut free, or gluten free"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="318dp"
+        android:layout_height="206dp"
+        android:text="Add Image"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
