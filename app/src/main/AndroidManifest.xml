@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FavoritesPG"></activity>
+        <activity android:name=".searchPG"></activity>
+        <activity android:name=".FavoritesPG" />
         <activity android:name=".AllRecipesPG" />
         <activity android:name=".MainActivity">
             <intent-filter>
