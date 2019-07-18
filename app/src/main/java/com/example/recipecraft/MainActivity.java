@@ -12,4 +12,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+
+    public void myLogin(View v) {
+        etusername=(EditText)findViewById(R.id.etUsername);
+        etpassword=(EditText)findViewById(R.id.et);
+
+    }
 }
